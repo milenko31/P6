@@ -1,7 +1,7 @@
 const sauceModel = require('../models/sauces');
 const fs = require('fs-extra');
 
-//afficher toutes les sauces
+//afficher toutes les sauce
 exports.allSauces = (req, res, next) => {
     sauceModel.find()
         .then(sauces => res.status(200).json(sauces))
