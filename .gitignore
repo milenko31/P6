@@ -1,3 +1,4 @@
 node_modules
 .env
-back\images
+back/images/*
+!back/images/.gitkeep
